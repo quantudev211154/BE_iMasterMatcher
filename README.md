@@ -1,73 +1,47 @@
-<p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
-</p>
+# Hello Chi Hieu handsome
 
-[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
-[circleci-url]: https://circleci.com/gh/nestjs/nest
+## Step 1: Install Yarn and PostgreSQL
 
-  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
-    <p align="center">
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
-<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
-<a href="https://coveralls.io/github/nestjs/nest?branch=master" target="_blank"><img src="https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#9" alt="Coverage" /></a>
-<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
-<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
-<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
-  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg"/></a>
-    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
-  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow"></a>
-</p>
-  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
-  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
+<p>This project use <a href="https://yarnpkg.com/" target="_blank">Yarn</a> to manage package, and <a href="https://www.postgresql.org/" target="_blank">PostgreSQL</a> to build database. Therefore, you need to install Yarn and PostgreSQL before running this project.</p>
+<li>To install Yarn, please follow on <a href="https://yarnpkg.com/getting-started/install" target="_blank">this link.</a> It's not virus, do not worry hehe.</li>
+<li>To install PostgreSQL, please follow on <a href="https://www.enterprisedb.com/downloads/postgres-postgresql-downloads" target="_blank">this link (let's download PostgreSQL <b>version 14.6</b>).</a></li>
 
-## Description
+</br>
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+## Step 2: Clone this project. Open it in VS Code and initialize a terminal.
 
-## Installation
+I think you can do it. Therefore, i do not write anything here hehe. I'm so lazy.
+
+</br>
+
+## Step 3: Running this project
 
 ```bash
-$ npm install
+# Install all package
+$ yarn install
+
+# Run this app
+$ yarn start:dev
 ```
 
-## Running the app
+</br>
+
+## Step 4: Localhost address and API docs
+
+<li>In the end of <b>Step 3</b>, this app will be run on domain <a href="http://localhost:3000" target="_blank">http://localhost:3000.</a> You can change starter port by changing default port in <b>src/main.ts</b> file.</li>
 
 ```bash
-# development
-$ npm run start
-
-# watch mode
-$ npm run start:dev
-
-# production mode
-$ npm run start:prod
+Line 19: await app.listen(3000);
 ```
 
-## Test
+<li>To access API docs, let open <a href="http://localhost:3000/api" target="_blank">http://localhost:3000/api.</a> This API doc is automatically created by <a href="https://docs.nestjs.com/openapi/introduction">Swagger.</a></li>
 
-```bash
-# unit tests
-$ npm run test
+</br>
 
-# e2e tests
-$ npm run test:e2e
+## Step 5: Some notes
 
-# test coverage
-$ npm run test:cov
-```
-
-## Support
-
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-Nest is [MIT licensed](LICENSE).
+<ul>Let's learn Docker (include core concepts such as container, image, Docker Hub and Docker compose).
+<li><a href="https://www.youtube.com/watch?v=p7-TgBZ7m5s" target="_blank">Docker tutorial by Henry Web Dev</a></li>
+<li>Docker tutorial <a href="https://www.youtube.com/watch?v=bxrc1otsKIM" target="_blank">part 1 (core concepts)</a>, <a href="https://www.youtube.com/watch?v=6eJM6ArdzjA" target="_blank">part 2 (Docker compose)</a> by Ong Dev</li>
+<li><a href="https://www.youtube.com/watch?v=jbd71z2Gdo4" target="_blank">Docker tutorial by Tip Javascript (aka Anonystick)</a></li>
+</ul>
