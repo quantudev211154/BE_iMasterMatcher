@@ -2,10 +2,9 @@
 
 ## Step 1: Install Yarn and PostgreSQL
 
-<p>This project use <a href="https://yarnpkg.com/" target="_blank">Yarn</a> to manage package, and <a href="https://www.postgresql.org/" target="_blank">PostgreSQL</a> to build database. Therefore, you need to install Yarn and PostgreSQL before running this project.</p>
+<p>This project use <a href="https://yarnpkg.com/" target="_blank">Yarn</a> to manage packages, and <a href="https://www.postgresql.org/" target="_blank">PostgreSQL</a> to build database. Therefore, you need to install Yarn and PostgreSQL before running this project.</p>
 <li>To install Yarn, please follow on <a href="https://yarnpkg.com/getting-started/install" target="_blank">this link.</a> It's not virus, do not worry hehe.</li>
 <li>To install PostgreSQL, please follow on <a href="https://www.enterprisedb.com/downloads/postgres-postgresql-downloads" target="_blank">this link (let's download PostgreSQL <b>version 14.6</b>).</a></li>
-
 </br>
 
 ## Step 2: Clone this project. Open it in VS Code and initialize a terminal.
@@ -17,7 +16,7 @@ I think you can do it. Therefore, i do not write anything here hehe. I'm so lazy
 ## Step 3: Running this project
 
 ```bash
-# Install all package
+# Install all packages
 $ yarn install
 
 # Run this app
@@ -35,7 +34,6 @@ Line 19: await app.listen(3000);
 ```
 
 <li>To access API docs, let open <a href="http://localhost:3000/api" target="_blank">http://localhost:3000/api.</a> This API doc is automatically created by <a href="https://docs.nestjs.com/openapi/introduction">Swagger.</a></li>
-
 </br>
 
 ## Step 5: Some notes
