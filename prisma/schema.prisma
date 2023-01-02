@@ -17,7 +17,22 @@ model User {
   password String
   avatar String @default("#fffff")
   tokenVersion Int @default(0)
+  role UserRole @default(PLAYER)
+  status UserStatus @default(STABLE)
+
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt()
+
+
   @@map("users")
+}
+
+enum UserRole {
+  ADMIN
+  PLAYER
+}
+
+enum UserStatus {
+  STABLE
+  BANNED
 }

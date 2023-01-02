@@ -15,6 +15,10 @@ I think you can do it. Therefore, i do not write anything here hehe. I'm so lazy
 
 ## Step 3: Running this project
 
+<li>Before running this project, let's add <b>.env file</b> that i sent in Zalo to this project, in same level with package.json file.</li>
+
+</br>
+
 ```bash
 # Install all packages
 $ yarn install
